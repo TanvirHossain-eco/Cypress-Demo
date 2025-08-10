@@ -31,5 +31,5 @@ npx cypress open > E2E Testing > Select a browser > Start E2E Testing > From the
 <!-- Execute the number 3 for the first time only -->
 5. git branch -M master
 <!-- Execute the number 4 for the first time only -->
-6. git remote add origin https://github.com/TanvirHossain-eco/Saucedemo-cypress.git
+6. git remote add origin https://github.com/TanvirHossain-eco/Cypress-Demo.git
 7. git push -u origin master
