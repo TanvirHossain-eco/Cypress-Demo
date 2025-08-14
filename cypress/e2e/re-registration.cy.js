@@ -1,4 +1,4 @@
-describe('Re-Registration & Login of a Banking Application', () => {
+describe('Re-Registration of a Banking Application', () => {
     // beforeEach(() => {
         
     // });
@@ -7,7 +7,7 @@ describe('Re-Registration & Login of a Banking Application', () => {
 
     // });
 
-    it('Step 1: Register a New User', () => {
+    it('Step 1: Attempt to re-register using the existing registered user account.', () => {
         cy.visit('https://parabank.parasoft.com/parabank/index.htm');
         cy.get("#loginPanel > :nth-child(3) > a").click();
         cy.get("input[id='customer.firstName']").type('Tanvir');
