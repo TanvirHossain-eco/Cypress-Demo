@@ -33,3 +33,8 @@ npx cypress open > E2E Testing > Select a browser > Start E2E Testing > From the
 <!-- Execute the number 4 for the first time only -->
 6. git remote add origin https://github.com/TanvirHossain-eco/Cypress-Demo.git
 7. git push -u origin master
+
+<!-- To install Plugin -->
+1. Go to URL: https://docs.cypress.io/app/plugins/plugins-list
+2. Select the required plugin like (cypress-real-events) and click
+3. Follow the procedures at the ReadMe section
