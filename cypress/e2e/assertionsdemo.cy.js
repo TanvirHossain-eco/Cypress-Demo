@@ -6,7 +6,17 @@ describe('Assertion Demo', () => {
     // afterEach(() => {
 
     // });
-    // Implicit Assertion Demo
+    // Implicit Assertion Demo - We use Should() & and() Keywords
+    // .should('contain', 'Button')
+    // .should('have.class', 'query-btn')
+    // .should('have.text', 'query-btn')
+    // .should('have.html', 'query-btn')
+    // .should('be.visible')
+    // .should('be.selected')
+    // .should('be.disabled')
+    // .should('be.focused')
+    // .invoke('attr', 'id').should('equal', 'query-btn')
+    // .and()
     // Assertion Demo with Should
     it('Assertion Demo Should', () => {
         // Visit to the URL
@@ -61,14 +71,31 @@ describe('Assertion Demo', () => {
         .and('have.class', 'query-btn')
         .and('be.visible')
         .and('be.enabled')
-        // Explicit Assertion
-        expect(true).to.be.true;       
+        // Explicit Assertion Demo - We use expect() & assert() keywords
+        // expect(true).to.be.true
+        // assert.notEqual(4, 5, 'NOT EQUAL')
+        // assert.equal(4, 4, 'EQUAL')
+        // assert.equal(4, '4', 'EQUAL')    
+        // assert.strictEqual(4, '4', 'NOT EQUAL')
+        // .isAbove()
+        // .isBelow()
+        // .exists
+        // .notExists
+        // .true
+        // .false
+        // .isString
+        // .isNoteString
+        // .isNumber
+        // .isNotNumber
+        expect(true).to.be.true
+        assert.notEqual(4, 5, 'NOT EQUAL')
+        assert.equal(4, 4, 'EQUAL')
+        assert.equal(4, '4', 'EQUAL')    
+        assert.strictEqual(4, '4', 'NOT EQUAL')  
     });
-    // Explicit Assertion
-    it('Explicit Assertion', () => {
-        assert.equal(4, 5, 'NOT EQUAL');
-        assert.equal(4, 4, 'EQUAL');
-        assert.equal(4, '4', 'EQUAL');
+    // // Explicit Assertion
+    // it('Explicit Assertion', () => {
         
-    });
+        
+    // });
 });
