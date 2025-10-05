@@ -23,4 +23,6 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
-require("cypress-real-events")
+require("cypress-real-events");
+import 'cypress-file-upload';
+require('cypress-downloadfile/lib/downloadFileCommand');

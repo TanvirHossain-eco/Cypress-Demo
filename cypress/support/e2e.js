@@ -21,6 +21,6 @@ Cypress.on('uncaught:exception', (err, runnable) => {
   // returning false prevents Cypress from failing the test
   return false;
 });
-beforeEach(function() {
-  cy.log("I'm Here Now...");
-});
+// beforeEach(function() {
+//   cy.log("I'm Here Now...");
+// });
